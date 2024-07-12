@@ -22,20 +22,6 @@ Clone o repositório:
 ## Instale as dependências:
 `pip install -r requirements.txt`
 
-## Estrutura do Projeto
-sprint_py/
-├── app.py
-├── import_data.py
-├── Dockerfile
-├── models/
-│   ├── __init__.py
-│   ├── base.py
-│   └── produto.py
-├── database/
-│   └── db.sqlite3
-├── requirements.txt
-└── README.md
-
 ## Execute o script para importar os dados:
 `python import_data.py`
 
